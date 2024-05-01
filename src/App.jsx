@@ -5,6 +5,7 @@ import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Benifits from './Components/Benifits'
 import Collaboration from './Components/Collaboration'
+import Service from './Components/Service'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Hero/>
     <Benifits/>
     <Collaboration/>
+    <Service/>
     </div>
     <ButtonGredient/>
     </>
