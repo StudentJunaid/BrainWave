@@ -8,7 +8,7 @@ import { PhotoChatMessage, Gradient, VideoBar,VideoChatMessage } from './design/
 
 function Service() {
     return (
-        <Section>
+        <Section id="how-to-use">
             <div className='container'>
                 <Heading
                     title="Generative AI made for creaters"
@@ -25,7 +25,7 @@ function Service() {
                             <p className='body-2 mb-12'>Brainwave unlocks the potential of AI-powered applications</p>
                             <ul>
                                 {brainwaveServices.map((item, i) => (
-                                    <li className='flex items-center my-4 border-t border-n-1/10 p-5'>
+                                    <li key={i} className='flex items-center my-4 border-t border-n-1/10 p-5'>
                                         <img src={check} alt="check" />
                                         <p className='ml-7'>{item}</p>
                                     </li>

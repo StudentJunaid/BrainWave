@@ -14,7 +14,7 @@ function Collaboration() {
                     </h2>
                     <ul className='max-w-[25rem] mt-10 md:mb-14 '>
                         {collabContent.map((item, i) => (
-                            <li className='mb-3 py-3'>
+                            <li key={i} className='mb-3 py-3'>
                                 <div className='flex items-center'>
                                     <img src={check} alt="check" height={24} width={24} />
                                     <h6 className='body-2 ml-5'>{item.title}</h6>
